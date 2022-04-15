@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <ProvinceSelect></ProvinceSelect>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import ProvinceSelect from "./components/provinceSelect.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ProvinceSelect
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
